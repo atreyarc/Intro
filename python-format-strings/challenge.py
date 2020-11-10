@@ -10,7 +10,7 @@ sixth_value = 'sixth'
 print(f'{first_value.strip():^30}')
 
 # Second challenge
-
+print((second_value.strip('-')).strip().capitalize())
 
 # Third challenge
 
