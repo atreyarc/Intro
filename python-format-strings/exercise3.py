@@ -29,8 +29,9 @@ height = 10
 print(f'The perimeter is {(2 * width) + (2 * height)} and the area is {width * height}.') """
 
 value = 'hi'
+#A format specifier uses a colon symbol (:) after the variable name, to specify how that value should be formatted
 
-print(f'.{value:<25}.')#A format specifier uses a colon symbol (:) after the variable name, to specify how that value should be formatted.
-print(f'.{value:>25}.')
-print(f'.{value:^25}.')
-print(f'.{value:-^25}.')
+print(f'.{value:<25}.').#(<) to align the text to the left of a string that is 25 total characters wide.
+print(f'.{value:>25}.')#(>) to align the text to the right of a string that is 25 total characters wide.
+print(f'.{value:^25}.')#(^) to center the text in the middle of a string that is 25 total characters wide.
+print(f'.{value:-^25}.')#this time, we preface ^ with a single dash symbol (-) to use instead of an empty space to fill the remaining width of the string.
