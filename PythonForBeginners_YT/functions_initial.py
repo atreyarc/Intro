@@ -9,4 +9,4 @@ middle_name=input('Enter your middle name: ')
 
 last_name=input('Enter your last name: ')
 
-print(get_initials(first_name)+get_initials(middle_name)+get_initials(last_name))
+print(get_initial(first_name)+get_initial(middle_name)+get_initial(last_name))
